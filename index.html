@@ -309,18 +309,9 @@ body {
   min-height: 1em;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cor-fundo: #1c1a19;
-    --cor-texto: #f1ece8;
-    --cor-card: #26221f;
-    --cor-borda: #3a3532;
-    --cor-destaque: #d3a56d;
-  }
-
-  .card-imagem {
-    background: #322d2a;
-  }
+/* Visual sempre claro, independente do modo escuro do celular */
+:root {
+  color-scheme: light;
 }
 
 </style>
